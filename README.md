@@ -12,25 +12,40 @@ Kan fungera bäst om du bara byter ut Data source för det kan krångla om du ta
 
 För att göra testfallet "Registrera uthyrning av båt":
 In på swagger och gå till Post /BoatRent.
+
 -Ta bort bookingNr.
+
 -Ta bort rentedTo i Json.
+
 -Hitta på ett boatNr.
+
 -Ta en boatCategory som du vill ha från "GET /BoatCategories"
+
 -rentedFrom kan ändras till olika saker för olika tester.
+
 {
+
   "boatNr": 4234,
+  
   "personNr": 19900731,
+  
   "boatCategory": 1,
+  
   "rentedFrom": "2023-06-01T08:51:13.249Z"
+  
 }
 
 Kan kolla så det ser bra ut i "GET /BoatRent"
+
 För att testa så allt ser bra ut kan man gå in i databasen i visual studio och ta upp sin databas tabell och klicka "View Data" (klicka View sen Sql Server object explorer).
 
 
 För att göra testfallet "Återlämning av båt": 
+
 Använd "PUT /BoatReturn"
+
 Skicka in "boatNr" som du använde i testfallet "Registrera uthyrning av båt".
 
 Du får tillbaks summan som ska betalas.
+
 Du kan se i "GET /BoatRent" att ett rentedTo datum är ifyllt.
