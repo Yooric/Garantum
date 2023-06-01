@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e9a4a27e-4467-46c9-9609-56053216b33c" ChangeDateTime="05/31/2023 18:38:46">
+    <Property Name="ElementName" Value="[dbo].[BoatRent].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BoatRent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BookingNr" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b89b7efe-4987-4073-92c1-d13f2c4cccb0" ChangeDateTime="05/31/2023 18:44:36">
+    <Property Name="ElementName" Value="[dbo].[BoatRent].[Category]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BoatRent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BoatCategory" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="93a0ec10-8369-47a0-9671-8ca178150e05" ChangeDateTime="05/31/2023 20:59:09">
+    <Property Name="ElementName" Value="[dbo].[BoatCategory].[Price]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BoatCategory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HourlyPrice" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a03ab286-e38b-4f61-b585-8613978092dc" ChangeDateTime="05/31/2023 21:05:26">
+    <Property Name="ElementName" Value="[dbo].[BoatCategory].[HourlyPrice]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BoatCategory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Price" />
+  </Operation>
+</Operations>

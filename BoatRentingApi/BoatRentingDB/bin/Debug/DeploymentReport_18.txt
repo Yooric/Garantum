@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[BoatCategory]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[BoatCategory].[Price] is being dropped, data loss could occur.
+
+** User actions
+     Rename
+       [dbo].[BoatCategory].[Price] (Column)
+     Recreate table
+       [dbo].[BoatCategory] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_BoatRent_To_BoatCategory] (Foreign Key)
+     Create
+       [dbo].[FK_BoatRent_To_BoatCategory] (Foreign Key)
+     Refresh
+       [dbo].[spBoatCategory_Delete] (Procedure)
+       [dbo].[spBoatCategory_Get] (Procedure)
+       [dbo].[spBoatCategory_GetAll] (Procedure)
+       [dbo].[spBoatCategory_Insert] (Procedure)
+       [dbo].[spBoatCategory_Update] (Procedure)
+
+The column [dbo].[BoatCategory].[Price] is being dropped, data loss could occur.
+

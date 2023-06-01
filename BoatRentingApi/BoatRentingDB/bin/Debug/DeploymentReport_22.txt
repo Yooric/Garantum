@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[BoatCategory] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[spBoatCategory_Delete] (Procedure)
+       [dbo].[spBoatCategory_Get] (Procedure)
+       [dbo].[spBoatCategory_GetAll] (Procedure)
+       [dbo].[spBoatCategory_Insert] (Procedure)
+       [dbo].[spBoatCategory_Update] (Procedure)
+
+The column BasePrice on table [dbo].[BoatCategory] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column Category on table [dbo].[BoatCategory] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column HourlyPrice on table [dbo].[BoatCategory] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

@@ -1,0 +1,6 @@
+C:\Users\Yoori\source\repos\BoatRentingApi\BoatRentingDB\bin\Debug\BoatRentingDB.dacpac
+C:\Users\Yoori\source\repos\BoatRentingApi\BoatRentingDB\bin\Debug\BoatRentingDB.dll
+C:\Users\Yoori\source\repos\BoatRentingApi\BoatRentingDB\bin\Debug\BoatRentingDB.pdb
+C:\Users\Yoori\source\repos\BoatRentingApi\BoatRentingDB\obj\Debug\BoatRentingDB.sqlproj.AssemblyReference.cache
+C:\Users\Yoori\source\repos\BoatRentingApi\BoatRentingDB\obj\Debug\BoatRentingDB.dll
+C:\Users\Yoori\source\repos\BoatRentingApi\BoatRentingDB\obj\Debug\BoatRentingDB.pdb
