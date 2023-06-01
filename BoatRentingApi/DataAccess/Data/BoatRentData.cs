@@ -26,7 +26,7 @@ namespace DataAccess.Data
 
         public Task InsertBoatRent(BoatRentModel boatRent)
         {
-            return _db.SaveData("dbo.spBoatRent_Insert", new { boatRent.BoatNr, boatRent.PersonNr, boatRent.BoatCategory });
+            return _db.SaveData("dbo.spBoatRent_Insert", new { boatRent.BoatNr, boatRent.PersonNr, boatRent.BoatCategory, boatRent.RentedFrom });
         }
 
         public Task InsertBoatReturn(int boatNr)

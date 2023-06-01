@@ -28,7 +28,7 @@
                 return -1;
             }
 
-            var timeRented = lastTimeBoatWasRented.RentedFrom.Hour - ((DateTime)lastTimeBoatWasRented.RentedTo).Hour + 1;
+            var timeRented =  (((DateTime)lastTimeBoatWasRented.RentedTo).Hour + 1) - lastTimeBoatWasRented.RentedFrom.Hour;
             var price = _basePrice * boatCategory.BasePrice + _hourlyPrice * boatCategory.HourlyPrice * timeRented;
 
             return price;
