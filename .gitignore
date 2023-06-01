@@ -431,6 +431,12 @@ test-results/
 # Icon must end with two \r
 Icon
 
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
 
 # Thumbnails
 ._*
