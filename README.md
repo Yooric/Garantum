@@ -1,5 +1,6 @@
 # Garantum
 Swagger som frontend.
+
 -------------SETUP-----------------
 Om det ska köras behöver du skapa en databas(jag använde sql) och sen publisha "BoatRentingDB"projektet till en databasserver som du har (För att publisha så högerklickar du på "BoatRentingDb" och klickar publish). 
 Sen byta ut connectionstringen "Default" i appsettings.json till den connectionstring du får när du publishar. 
