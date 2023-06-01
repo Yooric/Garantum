@@ -2,12 +2,14 @@
 Swagger som frontend.
 
 -------------SETUP-----------------
+
 Om det ska köras behöver du skapa en databas(jag använde sql) och sen publisha "BoatRentingDB"projektet till en databasserver som du har (För att publisha så högerklickar du på "BoatRentingDb" och klickar publish). 
 Sen byta ut connectionstringen "Default" i appsettings.json till den connectionstring du får när du publishar. 
 Kan fungera bäst om du bara byter ut Data source för det kan krångla om du tar det som Visual studio generar när den publishar för den lägger till massa mellanslag som inte får vara där ibland.
 
 
 ----------TESTFALL-------------------
+
 För att göra testfallet "Registrera uthyrning av båt":
 In på swagger och gå till Post /BoatRent.
 -Ta bort bookingNr.
