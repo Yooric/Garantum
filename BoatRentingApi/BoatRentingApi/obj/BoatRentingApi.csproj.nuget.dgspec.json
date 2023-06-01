@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\BoatRentingApi\\BoatRentingApi.csproj": {}
+    "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\BoatRentingApi\\BoatRentingApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\BoatRentingApi\\BoatRentingApi.csproj": {
+    "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\BoatRentingApi\\BoatRentingApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\BoatRentingApi\\BoatRentingApi.csproj",
+        "projectUniqueName": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\BoatRentingApi\\BoatRentingApi.csproj",
         "projectName": "BoatRentingApi",
-        "projectPath": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\BoatRentingApi\\BoatRentingApi.csproj",
+        "projectPath": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\BoatRentingApi\\BoatRentingApi.csproj",
         "packagesPath": "C:\\Users\\Yoori\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\BoatRentingApi\\obj\\",
+        "outputPath": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\BoatRentingApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yoori\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Yoori\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yoori\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -4,5 +4,5 @@ AS
 begin
 	UPDATE dbo.[BoatRent]
 	SET RentedTo = GETDATE()
-	WHERE @BoatNr = BoatNr;
+	WHERE @BoatNr = BoatNr AND RentedTo IS NULL;
 end

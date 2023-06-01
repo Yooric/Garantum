@@ -597,11 +597,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Yoori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yoori\\source\\repos\\BoatRentingApi\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Yoori\\source\\repos\\Garantum\\BoatRentingApi\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yoori\\AppData\\Roaming\\NuGet\\NuGet.Config",
