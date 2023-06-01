@@ -32,4 +32,5 @@ app.Run();
 //Båtar har självklart en egen tabell
 //timpris och grundavgift in i databasen där man kan lägga till ett slutdatum. Bra för bokföring.
 //Deletecategory ska bara vara en archive.
-//Fixa alla queries i samma DB call.
+//Fixa alla queries i samma DB call. Detta löser BoatReturnAndCalculatePrice's problem med om den inte passerar senare checkar.
+//Allmän verifiering av data som kommer in.

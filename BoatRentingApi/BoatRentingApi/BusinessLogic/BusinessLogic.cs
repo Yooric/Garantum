@@ -13,7 +13,7 @@
         }
         public async Task<float> BoatReturnAndCalculatePrice(int boatNr)
         {
-            //problem med om allt inte går som det ska.
+            
             await _boatRentData.InsertBoatReturn(boatNr);
 
             var lastTimeBoatWasRented = await _boatRentData.GetBoatLastRented(boatNr);
